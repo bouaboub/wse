@@ -1,0 +1,10 @@
+.footerBottom{
+    height: 40px;
+    width: 100%;
+    background-color:#212121;
+}
+
+.sub-menu 
+{
+    list-style-type: none;
+}

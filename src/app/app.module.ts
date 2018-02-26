@@ -17,15 +17,17 @@ import { ClientComponent } from './client/client.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { AccueilComponent } from './accueil/accueil.component';
+import { ProduitsComponent } from './produits/produits.component';
 
 
 
 const routeLists : Routes = [
   {path:"", component:HomeComponent},
-  {path:"about", component:AboutComponent},
+  //{path:"about", component:AboutComponent},
   {path:"services", component:ServicesComponent},
+  {path:"produits", component:ProduitsComponent},
   {path:"technologies", component:TechnologiesComponent},
-  {path:"client", component:ClientComponent},
+  //{path:"client", component:ClientComponent},
   {path:"contact", component:ContactComponent}
 ]
 
@@ -40,7 +42,8 @@ const routeLists : Routes = [
     ClientComponent,
     ServicesComponent,
     FooterComponent,
-    AccueilComponent
+    AccueilComponent,
+    ProduitsComponent
   ],
   imports: [
     BrowserModule,
